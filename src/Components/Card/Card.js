@@ -1,11 +1,9 @@
 import styles from './Card.module.css';
 import React from 'react';
-import { ReactComponent as Like } from "../../Resources/image/like.svg";
-import { ReactComponent as Add } from "../../Resources/image/add.svg";
+import { ReactComponent as Like } from "../../assets/image/like.svg";
 import { motion } from "framer-motion";
 import AddToCart from '../AddToCart/AddToCart';
 import AddedToCart from '../AddedToCart/AddedToCart';
-import AnimatedCard from '../../Containers/AnimatedPage/AnimatedCard';
 import { useLocation } from 'react-router-dom';
 
 const Card = props => {

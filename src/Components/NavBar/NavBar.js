@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import styles from './NavBar.module.css';
-import { ReactComponent as Logo } from "../../Resources/image/logo.svg";
-import { ReactComponent as Browse } from "../../Resources/image/browse.svg";
-import { ReactComponent as Cart } from "../../Resources/image/cart.svg";
-import { ReactComponent as Search } from "../../Resources/image/search.svg";
+import { ReactComponent as Logo } from "../../assets/image/logo.svg";
+import { ReactComponent as Browse } from "../../assets/image/browse.svg";
+import { ReactComponent as Cart } from "../../assets/image/cart.svg";
+import { ReactComponent as Search } from "../../assets/image/search.svg";
 import { motion } from "framer-motion";
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const NavBar = props => {
     const {

@@ -1,7 +1,7 @@
 import styles from './Grid.module.css';
 import React, { useEffect } from 'react';
 import Card from '../Card/Card';
-import AnimatedPage from '../../Containers/AnimatedPage/AnimatedPage';
+import AnimatedPage from '../../pages/AnimatedPage/AnimatedPage';
 import { v4 as uuidv4 } from 'uuid';
 
 const Grid = props => {

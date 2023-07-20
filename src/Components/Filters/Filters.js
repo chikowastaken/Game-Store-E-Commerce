@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "./Filters.module.css";
-import { ReactComponent as Wishlist } from "../../Resources/image/wishlist.svg";
-import { ReactComponent as Ratings } from "../../Resources/image/ratings.svg";
-import { ReactComponent as Reviews } from "../../Resources/image/reviews.svg";
-import { ReactComponent as Action } from "../../Resources/image/action.svg";
-import { ReactComponent as Strategy } from "../../Resources/image/strategy.svg";
-import { ReactComponent as RPG } from "../../Resources/image/RPG.svg";
-import { ReactComponent as Shooter } from "../../Resources/image/shooter.svg";
-import { ReactComponent as Adventure } from "../../Resources/image/adventure.svg";
-import { ReactComponent as Puzzle } from "../../Resources/image/puzzle.svg";
-import { ReactComponent as Racing } from "../../Resources/image/racing.svg";
-import { ReactComponent as Sports } from "../../Resources/image/sports.svg";
+import { ReactComponent as Wishlist } from "../../assets/image/wishlist.svg";
+import { ReactComponent as Ratings } from "../../assets/image/ratings.svg";
+import { ReactComponent as Reviews } from "../../assets/image/reviews.svg";
+import { ReactComponent as Action } from "../../assets/image/action.svg";
+import { ReactComponent as Strategy } from "../../assets/image/strategy.svg";
+import { ReactComponent as RPG } from "../../assets/image/RPG.svg";
+import { ReactComponent as Shooter } from "../../assets/image/shooter.svg";
+import { ReactComponent as Adventure } from "../../assets/image/adventure.svg";
+import { ReactComponent as Puzzle } from "../../assets/image/puzzle.svg";
+import { ReactComponent as Racing } from "../../assets/image/racing.svg";
+import { ReactComponent as Sports } from "../../assets/image/sports.svg";
 
 const Filters = props => {
     const {

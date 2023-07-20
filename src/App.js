@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import styles from './App.module.css';
-import { BrowserRouter, Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
-import Browse from './Containers/Browse/Browse';
-import GamePage from './Containers/GamePage/GamePage';
-import NotFound from './Containers/NotFound/NotFound';
-import Home from './Containers/Home/Home';
+import Browse from './pages/Browse/Browse';
+import GamePage from './pages/GamePage/GamePage';
+import NotFound from './pages/NotFound/NotFound';
 import { AnimatePresence } from "framer-motion";
 import filterNames from './utils/filterNames';
 import games from './utils/games';

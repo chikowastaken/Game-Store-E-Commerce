@@ -1,9 +1,9 @@
 import styles from './Slider.module.css';
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from "framer-motion";
-import { ReactComponent as Left } from "../../Resources/image/left.svg";
-import { ReactComponent as Right } from "../../Resources/image/right.svg";
-import { ReactComponent as Dot } from "../../Resources/image/dot.svg";
+import { ReactComponent as Left } from "../../assets/image/left.svg";
+import { ReactComponent as Right } from "../../assets/image/right.svg";
+import { ReactComponent as Dot } from "../../assets/image/dot.svg";
 import { useLocation } from 'react-router-dom';
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
