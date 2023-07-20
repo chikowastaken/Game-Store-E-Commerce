@@ -1,0 +1,14 @@
+export declare const defaultProps: {
+    duration: number;
+    transitionDuration: number;
+    defaultIndex: number;
+    infinite: boolean;
+    autoplay: boolean;
+    indicators: boolean;
+    arrows: boolean;
+    pauseOnHover: boolean;
+    easing: string;
+    canSwipe: boolean;
+    cssClass: string;
+    responsive: never[];
+};

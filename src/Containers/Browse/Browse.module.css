@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.Browse {
+    background-color: #0f1011;
+}
+
+.browseContent {
+    margin-top: 15px;
+    display: flex;
+    padding-top: 25px;
+    width: 100vw;
+    padding-bottom: 280px;
+    background-color: #0f1011;
+}
+
+.filters {
+    padding: 26px 40px 0px 40px;
+    width: 270px;
+}
+
+.filterList {
+    display: flex;
+    gap: 8px;
+}
+
+.clearButton {
+    font-family: "GT Bold" !important;
+}
+
+.filters h2 {
+    font-family: "GT Medium";
+    color: white;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 60px;
+}
+
+.list h1,
+.list p {
+    color: white;
+}
+
+.list h1 {
+    font-family: "GT Bold";
+    font-size: 4em;
+}
+
+.applied {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterButton {
+    padding: 8px 22px;
+    height: 40px;
+    background-color: #262626;
+    color: #fff;
+    font-family: "GT Light";
+    font-size: 0.95em;
+    border: 1px transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filterButton:hover {
+    background-color: #2d2d2d;
+}
+
+.filterButton:active {
+    transform: scale(0.9);
+}
+
+.applied button span {
+    color: #fff;
+    font-family: "GT Bold";
+}
+
+.displayStyle {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.displayStyle p {
+    color: #696969;
+    font-family: "GT Medium";
+}
+
+.displayBtn {
+    border: 1px transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #282828;
+    transition: 0.3s all;
+    padding: 0px 3px;
+}
+
+.displayBtn * {
+    pointer-events: none;
+}
+
+.displayBtn:hover {
+    background-color: #313131;
+}
+
+.displayBtn:active {
+    transform: scale(0.9125);
+}
+
+.displayItem {
+    transform: scale(0.9);
+    transition: 0.3s all;
+}
+
+@media screen and (max-width: 850px) {
+    .displayStyle p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .displayStyle {
+        display: none;
+    }
+
+    .list h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .list {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .list h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .list h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .filterButton {
+        font-size: 12px;
+    }
+}
+

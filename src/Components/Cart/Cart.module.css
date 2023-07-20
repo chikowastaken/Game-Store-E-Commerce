@@ -1,0 +1,252 @@
+.cartWindow {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh !important;
+    background-color: rgba(0,0,0,.6);
+    z-index: 10;
+    overflow: hidden;
+}
+
+.back {
+    position: absolute;
+    left: 0%;
+    width: 77.5%;
+    height: 100%;
+}
+
+.cart {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 0%;
+    background-color: #1A1A1A;
+    width: 22.5%;
+    min-height: 100vh;
+    z-index: 12;
+    padding: 30px 0px 30px 28px;
+    box-sizing: border-box;
+}
+
+.removeButton * {
+    pointer-events: none;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 28px;
+}
+
+.topHeader h2 {
+    color: white;
+    font-size: 28px;
+    font-family: "GT Ultrabold";
+}
+
+.topHeader h3 {
+    padding-top: 4px;
+    font-size: 16px;
+    font-family: "GT Light";
+    color: #ccc;
+    transform: scaleY(0.95);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.topGames {
+    margin-top: 23px;
+    overflow: scroll;
+    height: 740px;
+    overflow-x: hidden;
+}
+
+.right {
+    transition: 0.3s all;
+}
+
+.topHeader h3:hover {
+    color: white;
+}
+
+.topHeader h3:active {
+    transform: scale(0.9);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 3.5%;
+}
+
+.bottom h3 {
+    color: #999;
+    font-size: 16px;
+}
+
+.bottom button {
+    background-color: transparent;
+    border: 1px transparent;
+    color: white;
+    font-family: "GT Medium";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.bottom button:active {
+    transform: scale(0.925);
+}
+
+.bottom button * {
+    pointer-events: none;
+}
+
+.item {
+    background-color: #262626;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 17px 20px;
+    margin-right: 16px;
+    gap: 10px;
+}
+
+.item:not(:first-child) {
+    margin-top: 13px;
+}
+
+.item h3 {
+    font-size: 16px;
+    font-family: "GT Regular";
+    transition: 0.3s all;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.item h3:hover {
+    color: #fff;
+}
+
+.item h3:active {
+    transform: scale(0.915);
+}
+
+.item div {
+    display: flex;
+    gap: 16px;
+    color: #999999;
+    font-size: 14px;
+    font-family: "GT Medium";
+    align-items: center;
+}
+
+.item div button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px transparent;
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.item div button:hover {
+    background-color: #353535;
+}
+
+.item div button:active {
+    transform: scale(0.92);
+}
+
+.cross {
+    width: 9px;
+    height: 9px;
+    fill: #fff;
+}
+
+.bottom h3 {
+    font-family: "GT Bold";
+}
+
+@media screen and (max-width: 1750px) {
+    .cart {
+        width: 27.5%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .cart {
+        width: 32.5%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .cart {
+        width: 37.5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cart {
+        width: 42.5%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .cart {
+        width: 45.5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cart {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cart {
+        width: 57.5%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .cart {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cart {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cart {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cart {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cart {
+        width: 100%;
+    }
+}

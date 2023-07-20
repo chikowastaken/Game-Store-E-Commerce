@@ -1,0 +1,340 @@
+.card {
+    background-color: #202020;
+    grid-column: auto;
+    border: 1px transparent;
+    border-radius: 12px;
+    transition: 0.3s all;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.cardHome {
+    background-color: #202020;
+    grid-column: auto;
+    border: 1px transparent;
+    border-radius: 12px;
+    transition: 0.3s all;
+    position: absolute;
+    width: 285px;
+    left: 25.95%;
+    top: 35.25%;
+}
+
+.cardHome:hover {
+    background-color: #2d2d2d;
+    transform: scale(1.015);
+}
+
+.cardHome:active {
+    transform: scale(0.975);
+}
+
+.cardHome img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.cardHome div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 3px 7px;
+    cursor: pointer;
+}
+
+.fifa {
+    background-color: #202020;
+    grid-column: auto;
+    border: 1px transparent;
+    border-radius: 12px;
+    transition: 0.3s all;
+    position: absolute;
+    width: 285px;
+    left: 42.5%;
+    top: 35.25%;
+}
+
+.fifa:hover {
+    background-color: #2d2d2d;
+    transform: scale(1.015);
+}
+
+.fifa:active {
+    transform: scale(0.975);
+}
+
+.fifa img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.fifa div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 3px 7px;
+    cursor: pointer;
+}
+
+.mariokart {
+    background-color: #202020;
+    grid-column: auto;
+    border: 1px transparent;
+    border-radius: 12px;
+    transition: 0.3s all;
+    position: absolute;
+    width: 285px;
+    left: 75.6%;
+    top: 35.25%;
+}
+
+.mariokart:hover {
+    background-color: #2d2d2d;
+    transform: scale(1.015);
+}
+
+.mariokart:active {
+    transform: scale(0.975);
+}
+
+.mariokart img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.mariokart div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 3px 7px;
+    cursor: pointer;
+}
+
+.minecraft {
+    background-color: #202020;
+    grid-column: auto;
+    border: 1px transparent;
+    border-radius: 12px;
+    transition: 0.3s all;
+    position: absolute;
+    width: 285px;
+    left: 9.4%;
+    top: 35.25%;
+}
+
+.minecraft:hover {
+    background-color: #2d2d2d;
+    transform: scale(1.015);
+}
+
+.minecraft:active {
+    transform: scale(0.975);
+}
+
+.minecraft img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.minecraft div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 3px 7px;
+    cursor: pointer;
+}
+
+.tombraider {
+    background-color: #202020;
+    grid-column: auto;
+    border: 1px transparent;
+    border-radius: 12px;
+    transition: 0.3s all;
+    position: absolute;
+    width: 285px;
+    left: 59.05%;
+    top: 35.25%;
+}
+
+.tombraider:hover {
+    background-color: #2d2d2d;
+    transform: scale(1.015);
+}
+
+.tombraider:active {
+    transform: scale(0.975);
+}
+
+.tombraider img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.tombraider div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 3px 7px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #2d2d2d;
+    transform: scale(1.015);
+}
+
+.card:active {
+    transform: scale(0.975);
+}
+
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 3px 7px;
+}
+
+.tombraider .name {
+    font-size: 23px;
+}
+
+.name {
+    color: white;
+    padding-left: 14px;
+    font-family: "GT Bold";
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.name,
+.img {
+    cursor: pointer;
+}
+
+.price {
+    color: white;
+    font-family: "GT Medium";
+}
+
+.price div {
+    color: #999;
+}
+
+.like {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    width: 18px;
+    bottom: 5%;
+    right: 4.5%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.like * {
+    pointer-events: none;
+}
+
+.likeSVG {
+    transition: 0.2s all;
+}
+
+
+.likeSVG:focus {
+    transform: scale(1.25);
+}
+
+@media screen and (max-width: 1700px) {
+    .name {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .name {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .name {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .name {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .name {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+        font-size: 40px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .name {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .name {
+        font-size: 26px;
+    }
+}
+
+

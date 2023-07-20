@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "GT Medium";
+  src: local("GT Medium"),
+   url('./Resources/fonts/walsheim/GTWalsheimPro-Medium.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "GT Regular";
+  src: local("GT Regular"),
+   url('./Resources/fonts/walsheim/GTWalsheimPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "GT Light";
+  src: local("GT Light"),
+   url('./Resources/fonts/walsheim/GTWalsheimPro-Light.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "GT Bold";
+  src: local("GT Bold"),
+   url('./Resources/fonts/walsheim/GTWalsheimPro-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "GT Ultrabold";
+  src: local("GT Ultrabold"),
+   url('./Resources/fonts/walsheim/GTWalsheimPro-UltraBold.ttf') format("truetype");
+}

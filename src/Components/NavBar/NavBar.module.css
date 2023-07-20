@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px 2px 30px;
+    z-index: 12;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form button {
+    background: transparent;
+    cursor: pointer;
+    border: 1px transparent;
+}
+
+.navbar_left {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar_right {
+    display: flex;
+    gap: 50px;
+}
+
+.logodiv,
+.pathdiv,
+.cartdiv,
+.githubdiv,
+.searchdiv,
+.browsediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    z-index: 9;
+}
+
+.logodiv *,
+.cartdiv *,
+.githubdiv * {
+    pointer-events: none;
+}
+
+.logodiv:active,
+.cartdiv:active,
+.browsediv:active,
+.githubdiv:active {
+    transform: scale(0.945);
+}
+
+.svg {
+    transform: scale(0.525);
+    fill: #CCCCCC;
+    padding-top: 3px;
+    transition: 0.3s;
+}
+
+.svg2 {
+    width: 20px;
+    margin-right: 6px;
+    transition: 0.3s;
+}
+
+.githubdiv {
+    gap: 18px;
+}
+
+.gh {
+    padding-bottom: 3px;
+    transform: scale(1.5);
+    fill: white;
+    padding-top: 3px;
+    transition: 0.3s;
+}
+
+.cartdiv h3,
+.logodiv h3,
+.pathdiv h3,
+.githubdiv h3 {
+    color: white;
+    font-family: "GT Bold";
+}
+
+.pathdiv h3,
+.navbar_right h3 {
+    font-family: "GT Bold";
+}
+
+.searchdiv input {
+    margin-left: 55px;
+    background-color: #262626;
+    border: 1px transparent;
+    border-radius: 8px;
+    height: 35px;
+    width: 450px;
+    padding-left: 18px;
+    font-size: 0.92em;
+    font-family: "GT Medium";
+    color: #CCCCCC;
+    outline: none;
+    transition: all .3s,
+}
+
+.searchdiv input:hover {
+    background-color: #2d2d2d;
+}
+
+.searchdiv input:focus {
+    background-color: #333;
+}
+
+form input:active {
+    transform: scale(0.97);
+}
+
+form button {
+    transition: 0.2s all;
+}
+
+form button:active {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 1160px) and (min-width: 1021px) {
+    .searchdiv input {
+        width: 350px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 926px) {
+    .searchdiv input {
+        width: 250px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 925px) and (min-width: 851px) {
+    .searchdiv input {
+        width: 200px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 770px) {
+    .searchdiv input {
+        width: 150px;
+        margin-left: 0px;
+    }
+
+    .navbar_left,
+    .navbar_right {
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .logodiv,
+    .githubdiv {
+        display: none;
+    }
+
+    .searchdiv input {
+        margin-left: 0px;
+    }
+
+    .searchdiv {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cartdiv {
+        width: 20vw;
+    }
+
+    .searchdiv input {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .searchdiv {
+        margin-right: 10px;
+    }
+
+    .searchdiv input {
+        width: 40vw;
+    }
+
+    .navbar {
+        padding: 5px 15px;
+    }
+
+    .cartdiv {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .cartdiv {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .cartdiv h3 {
+        font-size: 14px;
+    }
+}
