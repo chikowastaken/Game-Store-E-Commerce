@@ -4,7 +4,7 @@
 
 ## Short Description 📋
 
-Welcome to the Game Store E-commerce Website! This project is a React-based web application, imitating a Game Store.
+The Game Store E-commerce Website is a React-based project that imitates a real Game Store, offering a vast collection of games for browsing and shopping. It features a user-friendly interface with search functionality, genre and ratings filters, favorites, and a shopping cart, all designed with responsive layouts for seamless accessibility on all devices. 
 
 ## Demo
 
@@ -35,7 +35,15 @@ Welcome to the Game Store E-commerce Website! This project is a React-based web 
 
 ![](https://iili.io/HLbHdMP.png)
 
-## Code Structure 🖥
+## Technologies 🖥
+
+- React
+- React Router Dom
+- Framer Motion
+- CSS
+- Git
+
+## Code Structure 📁
 
 ```bash
 game-store/
